@@ -1,5 +1,6 @@
 # RubikQuat
 ![Alt RubikQuatScreen](/docs/RubiqQuat_scr1_small.png)
+
 RubikQuat is a 3D Rubik Simulator program, written entirelly in Python by means of [Pygame] modules. 
 A simple 3D-Engine is implemented using only the basic 2D-graphics.
 The orientation in space and rotation is calculated using Quaternions.
@@ -20,17 +21,18 @@ Unpack the content of the build_zip folder and execute .\build\rubikquat.exe.
 
 # Help
 ![Alt RubikQuatHelp](/docs/RubiqQuat_help_small.png)
+
 Help screen is displayed when RubikQuat application starts. It can also be invoked each time by pressing the F1 Key or clicking the '?'-button (top-left). Press Esc or mouse left-click to close the help and return to Rubik screen.
 # Controls
-| Key     | Function | Key | Function |
-| ---     | -------- | --- | -------- |
-| L       | Flip Left-Face clockwise | Left | Rotate Rubik along Y-axis |
+| Key | Function | Key | Function |
+| --- | -------- | --- | -------- |
+| L | Flip Left-Face clockwise | Left | Rotate Rubik along Y-axis |
 | Shift+L | Flip Left-Face counterclockwise | Right | Rotate Rubik along Y-axis |
-| R       | Flip Right-Face clockwise | Up | Rotate Rubik along X-axis |
+| R | Flip Right-Face clockwise | Up | Rotate Rubik along X-axis |
 | Shift+R | Flip Right-Face counterclockwise | Down | Rotate Rubik along X-axis |
-| F       | Flip Front-Face clockwise | Pg-Up | Rotate Rubik along Z-axis |
+| F | Flip Front-Face clockwise | Pg-Up | Rotate Rubik along Z-axis |
 | Shift+F | Flip Front-Face counterclockwise | Pg-Down | Rotate Rubik along Z-axis |
-| U       | Flip Top-Face clockwise | Ctrl+Z | Undo the last move |
+| U | Flip Top-Face clockwise | Ctrl+Z | Undo the last move |
 | Shift+U | Flip Top-Face counterclockwise | Ctrl+Y | Redo a move |
 | F1 | Show Help | S | Scramble the Rubik |
 You can also do all the above actions by clicking with mouse on corresponding button. 
