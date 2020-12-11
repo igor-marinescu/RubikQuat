@@ -35,6 +35,7 @@ Help screen is displayed when RubikQuat application starts. It can also be invok
 | U | Flip Top-Face clockwise | Ctrl+Z | Undo the last move |
 | Shift+U | Flip Top-Face counterclockwise | Ctrl+Y | Redo a move |
 | F1 | Show Help | S | Scramble the Rubik |
+
 You can also do all the above actions by clicking with mouse on corresponding button. 
 Rotate the Rubik using mouse - just drag the Rubik in the direction you want to rotate it.
 The mouse-wheel rotates the Rubik along Z-axis.
